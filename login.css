@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(./img/pexels-pixabay-33545.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+*{
+    font-family: 'Borel', cursive;
+}
+input{
+    display: block;
+    margin-bottom: 1rem;
+    width: 90%;
+    height: 3rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding-left: 2rem;
+    background-color: black; 
+    color: orangered; 
+}
+#cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+
+}
+#cont form{
+    width: 30%;
+    background-color: rgba(0, 0, 0, 0.38);
+    padding: 2rem;
+}
+
+#cont h1{
+    text-align: center;
+    color: white;
+
+}
+form div{
+    position: relative;
+}
+form i{
+    left: 1%;
+    position: absolute;
+    top: 25%;
+    color: white;
+}
+input::placeholder{
+    color: white;
+}
+button{
+    width: 97%;
+    height: 2rem;
+    border-radius: 5px;
+    background-color: rgb(62, 112, 221);
+    border: none;
+    color: white;
+}
+span{
+    color: red;
+}
